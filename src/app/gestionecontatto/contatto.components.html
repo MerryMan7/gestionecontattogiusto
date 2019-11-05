@@ -1,0 +1,33 @@
+<div class="container">
+	<p class="lead">{{contatto.getNomeCompleto()}}</p>
+<div class="row">
+        <div class="col-sm-3">Nome:</div>
+        <div class="col-sm-3">
+            <input type="text" [(ngModel)]="contatto.nome">
+    </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">Cognome:</div>
+            <div class="col-sm-3">
+                <input type="text" [(ngModel)]="contatto.cognome">
+    </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">Mail:</div>
+                <div class="col-sm-3">
+                    <input type="text" [(ngModel)]="contatto.mail">
+    </div>
+                </div>
+    <div class="row">
+        <div class="col-sm-3">Cellulare:</div>
+                    <div class="col-sm-3">
+                        <input type="text" [(ngModel)]="contatto.cell">
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">Numero Stelle:</div>
+        <div class="col-sm-3">
+            <input type="text" [(ngModel)]="contatto.nrStelle">
+    </div>
+    </div>
+</div>
